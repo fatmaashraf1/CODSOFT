@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Recipes | Landing</title>
+    <!-- Icon -->
+    <link rel="icon" href="./assests/imgs/bar-icon.png" />
+
+    <!-- Boxicons icons -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!-- Swiper Js -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Title bar icon -->
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <a href="#" class="logo mobile">Recipo</a>
+      <ul class="nav">
+        <li><a class="menu-item" href="#">Home</a></li>
+        <li><a class="menu-item" href="#">Recipes</a></li>
+        <a href="#" class="logo">Recipo</a>
+        <li><a class="menu-item" href="#">Blog</a></li>
+        <li><a class="menu-item" href="#">About Us</a></li>
+      </ul>
+
+      <div class="menu-btn">
+        <div class="bx bx-menu" id="icon-menu"></div>
+      </div>
+    </header>
+    <!-- Main Section -->
+    <section class="about">
+      <h1>
+        Unlock your inner <span class="chef-span auto-type"> </span> <br />
+        <span>Anyone can be a Culinary Master!</span>
+      </h1>
+      <div class="search-bar">
+        <input
+          type="text"
+          class="search-input"
+          placeholder="Search for Recipe"
+        />
+        <button class="search-icon"><i class="bx bx-search-alt"></i></button>
+      </div>
+    </section>
+
+    <!-- Secret -->
+    <section class="steps-container hidden">
+      <div class="heading col">
+        <h2>Here's How It <span>Works</span></h2>
+        <p>Discover The Secret Of Good Cooking</p>
+      </div>
+
+      <div class="steps">
+        <div class="step">
+          <img src="./assests/imgs/step1.jpg" alt="step1" />
+          <div class="step-text">
+            <h3>Find recipes</h3>
+            <p>Choose from varity of recipes that suit your taste and diet</p>
+          </div>
+        </div>
+        <div class="step">
+          <img src="./assests/imgs/step2.jpg" alt="step2" />
+          <div class="step-text">
+            <h3>Cook and have fun!</h3>
+            <p>Simple step-by-step instructions for cooking recipes.</p>
+          </div>
+        </div>
+        <div class="step">
+          <img src="./assests/imgs/step3.jpg" alt="step3" />
+          <div class="step-text">
+            <h3>Become a Creator</h3>
+            <p>
+              As a creator, you can create recipes step by step, share them with
+              other users and sell your recipes.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="categories-container hidden">
+      <div class="heading-col">
+        <div class="heading">
+          <img
+            class="italic-icon-r"
+            src="./assests/imgs/restaurant-icon.png"
+            alt="icon"
+          />
+          <h2>Categories</h2>
+          <img
+            class="italic-icon-l"
+            src="./assests/imgs/hamburger-icon.png"
+            alt="icon"
+          />
+        </div>
+        <a href="#" class="view-btn">VIEW ALL</a>
+      </div>
+
+      <div id="categories"></div>
+    </section>
+
+    <!-- Popular Recipes -->
+    <section class="recipes hidden">
+      <div class="heading-col">
+        <div class="heading">
+          <img class="right-one" src="./assests/imgs/pizza-icon.png" alt="" />
+          <h2>Trending Recipes</h2>
+          <img src="./assests/imgs/pizza-icon.png" alt="" />
+        </div>
+        <a href="#" class="view-btn">VIEW ALL</a>
+      </div>
+
+      <div class="swiper tranding-slider">
+        <div class="swiper-wrapper"></div>
+      </div>
+    </section>
+
+    <section class="contact hidden">
+      <div class="contact-subscribe">
+        <h1>Deliciousness To Your Inbox</h1>
+        <p>
+          Are you ready to embark on a culinary adventure like no other? Join us
+          on a gastronomic journey that knows no bounds. Recipo is your passport
+          to an infinite realm of delectable recipes, and the best part? It's
+          all for free!
+        </p>
+        <div class="subscribe-bar">
+          <input
+            type="text"
+            class="subscribe-input"
+            placeholder="Enter your email address"
+          />
+          <button class="subscribe-btn">SUBSCRIBE</button>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="f1">
+        <h1 class="logo flogo">Recipo</h1>
+        <h4>Contact</h4>
+        <h5>Email: recipofood@gmail.com</h5>
+        <div class="contact-links">
+          <h4>Follow Us</h4>
+          <p class="footicon">
+            <i class="bx bxl-facebook"></i>
+            <i class="bx bxl-twitter"></i>
+            <i class="bx bxl-instagram"></i>
+            <i class="bx bxl-pinterest"></i>
+            <i class="bx bxl-linkedin"></i>
+          </p>
+        </div>
+      </div>
+      <div class="f2">
+        <p>About Us</p>
+        <p>Privacy Policy</p>
+        <p>Terms & Conditions</p>
+        <p>Contact Us</p>
+      </div>
+      <div class="f3">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="platforms">
+          <button type="button">
+            <i class="bx bxl-apple"></i>
+            <p>App Store</p>
+          </button>
+          <button type="button">
+            <i class="bx bxl-play-store"></i>
+            <p>Google Play</p>
+          </button>
+        </div>
+
+        <p>&copy; 2023 Recipo. All Rights Reserved.</p>
+
+        <form class="feed">
+          <h4 class="review">Reviews</h4>
+          <textarea
+            name="inreview"
+            cols="30"
+            rows="4"
+            placeholder="Please Enter Your Feedback"
+          ></textarea>
+          <input type="submit" value="SUBMIT" class="submit-feed-btn" />
+        </form>
+      </div>
+    </footer>
+
+    <!-- Swiper Js  -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- Scroll Animation -->
+    <script src="./js/scroll.js"></script>
+    <!-- JS file link -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="./js/scripts.js"></script>
+  </body>
+</html>
